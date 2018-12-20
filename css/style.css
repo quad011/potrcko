@@ -1,0 +1,479 @@
+/*style*/
+@font-face {
+	font-family: 'Gotham-UltraItalic';
+	src: url('../fonts/Gotham-UltraItalic.eot?#iefix') format('embedded-opentype'),  url('../fonts/Gotham-UltraItalic.otf')  format('opentype'),
+	     url('../fonts/Gotham-UltraItalic.woff') format('woff'), url('../fonts/Gotham-UltraItalic.ttf')  format('truetype'), url('../fonts/Gotham-UltraItalic.svg#Gotham-UltraItalic') format('svg');
+	font-weight: 900;
+	font-style: normal;
+}
+/* open-sans-regular - latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/open-sans-v15-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Open Sans Regular'), local('OpenSans-Regular'),
+       url('../fonts/open-sans-v15-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/open-sans-v15-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/open-sans-v15-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/open-sans-v15-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/open-sans-v15-latin-regular.svg#OpenSans') format('svg'); /* Legacy iOS */
+}
+body{
+	font-family: 'Open-Sans', sans-serif !important;
+	-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                          supported by Chrome and Opera */
+}
+.presite-full{
+		display: block;
+	}
+	.presite{
+		display: none;
+	}
+.pravna a, .fizicka a, .tel a {
+    text-decoration: none;
+}
+img{
+	max-width: 100%;
+}
+.flex-direction-nav {
+    display: none;
+}
+.flex-pauseplay {
+    display: none;
+}
+.nav a{
+	color: #000 !important;
+	font-weight: bold;
+}
+.nav a:hover{
+	color: #e5272c !important;
+	transition: 0.4s;
+	text-decoration: none !important;
+	background-color: transparent !important;
+}
+.nav > li > a:focus{
+	background-color: transparent !important;
+	color: #E5272C !important;
+}
+.mapa img{
+	width: 100%;
+	height: auto;
+}
+.nav.navbar-nav {
+    margin-top: 17px;
+}
+.navbar-nav a {
+    margin-left: 50px;
+    letter-spacing: 0.5px;
+}
+.navbar-fixed-top {
+    height: 80px;
+}
+span.icon-bar {
+    background-color: #2B2E3D !important;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
+	background-color: #EA4F18 !important;
+}	
+header {
+	height: 1079px;
+  	background-image:url('../img/bg1.png');
+ 	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+.page_title {
+    text-align: left;
+    top: 30%;
+    position: absolute;
+    left: 20%;
+    width: 66%;
+}
+.page_title h2 {
+	font-family: 'Gotham-UltraItalic';
+    font-size: 70px;
+    font-weight: 900;
+    color: #E5272C;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.page_title h4 {
+    font-size: 36px;
+	font-family: 'Gotham-UltraItalic';
+	font-weight: 900;
+	color: #2b2f3e;
+	margin-left: 15%;
+}
+.page_title h1 {
+    font-size: 80px;
+    font-family: 'Gotham-UltraItalic';
+    font-weight: 900;
+    color: #2b2f3e;
+    text-transform: uppercase;
+    margin-left: 15%;
+}
+.page_title a {
+    color: #2B2E3D !important;
+}
+.page_title a:hover{
+	color: #e5272c !important;
+	text-decoration: none;
+	transition: 0.4s;
+} 
+#cenovnik-fizicka{
+    font-weight: bold;
+}
+#cenovnik-fizicka h1{
+	font-size: 60px !important;
+	color: #e5272c;
+	font-weight: bold;
+}
+#cenovnik-pravna{
+    font-weight: bold;
+}
+#cenovnik-pravna h1{
+	font-size: 60px !important;
+	color: #e5272c;
+	font-weight: bold;
+	font-style: italic;
+}
+tbody{font-size:23px;}
+.table > tbody > tr > td{
+	border-bottom: 1px solid #ddd !important;
+	border-top: none !important; 
+}
+.table > tbody > tr > th {
+    border-top: none !important;
+    font-weight: bold;
+	font-style: italic;	
+}
+table span {
+    color: #e5272c;
+}
+table tbody tr td{width: 500px;}
+.zone1 {
+    border-left: 5px solid #aaeb91;
+}
+.zone2 {
+    border-left: 5px solid #91dd73;
+}
+.zone3 {
+    border-left: 5px solid #edeb84;
+}
+.zone4 {
+    border-left: 5px solid #f6da58;
+}
+.zone5 {
+    border-left: 5px solid #f1646e;
+}
+.zone6 {
+    border-left: 5px solid #ee3f4b;
+}
+.zone7 {
+    border-left: 5px solid #e5e4e0;
+}
+.file {
+    font-weight: normal;
+    border-bottom: 1px solid #ddd;
+}
+.file span{
+	font-weight: bold;
+}
+.pdf {
+    margin-top: 20px;
+}
+.pdf p {
+    width: 60%;
+    float: left;
+}
+.pdf img {
+    float: right;
+}
+.reference, .kontakt{
+	padding: 70px;
+}
+.reference h2{
+	font-size: 50px !important;
+	font-weight: bold;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 50px;
+	font-style: italic;
+}
+.reference h3{
+	font-weight: bold;
+}
+.reference tbody {
+    font-size: 18px;
+}
+.ref {
+    padding-right: 30px;
+}
+.logo img {
+    margin-bottom: 50px;
+    /*margin-right: 50px;*/
+}
+footer{
+	border-top: 12px solid #e5272c;
+	margin-top: 40px;
+}
+footer h2{
+	font-size: 45px !important;
+	font-weight: bold;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 50px;
+}
+.onama span{
+	font-weight: bold;
+}
+.kon p{
+	margin-bottom: 20px;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 40px;
+	font-weight: bold;
+}
+.kon img {
+    float: left;
+    margin-right: 35px;
+}
+.kon h5 {
+    margin-top: 55px;
+}
+.kontakt p {
+    margin-bottom: 30px;
+}
+.kontakt span{
+	font-weight: bold;
+}
+.subfooter{
+	height: 70px;
+	background-color: #e5272c;
+}
+.subfooter p {
+    margin: 25px;
+    color: #fff;
+}
+.media {
+    margin-top: 60px !important;
+    margin-bottom: 60px !important;
+}
+.media img {
+    margin-right: 30px;
+}
+.about {
+    border-right: 1px solid #ddd;
+}
+@media(max-width: 1370px){
+	.media img {
+    	margin-right: 5px;
+	}
+	.about {
+    	padding-right: 50px;
+	}
+}	
+@media(max-width: 1199px){
+	tbody {
+    	font-size: 20px;
+	}
+	.media img {
+    	margin-right: 21px;
+    	width: 45px;
+	}
+}
+@media(max-width: 991px) {
+	header{
+		height: 600px;
+	}
+	.page_title h2 {
+		font-size: 40px;
+		left: 10%;
+	}
+	.page_title h4{
+		font-size: 30px;
+		top: 40%;
+	}
+	.page_title h1{
+		font-size: 50px;
+		top: 45%;
+	}
+	.navbar-nav a {
+    	margin-left: 17px;
+    	text-align: right;
+	}
+	.mapa iframe{
+		pointer-events: none;
+	}
+	.prep {
+    	margin-bottom: 40px;
+	}
+	.ref{
+		margin-bottom: 40px;
+	}
+	.prep {
+ 	   padding-left: 30px;
+	}
+	.about {
+    	border-right: none;
+	}
+	.toggle.btn.btn-success {
+    	margin: 13px;
+	}	
+}
+@media(max-width: 767px) {
+	.page_title h2 {
+		font-size: 40px;
+		text-align: left;
+	}
+	.page_title h4{
+		font-size: 30px;
+		top: 52%;
+		left: 10%;
+	}
+	.page_title h1{
+		font-size: 50px;
+		top: 60%;
+		left: 10%;
+	}
+	.navbar-collapse {
+    	background-color: rgba(175, 176, 181, 0.7)
+	}
+	.logo {
+    	text-align: center;
+	}
+}
+@media(max-width: 575px) {
+	.navbar-fixed-top {
+    	height: 60px;
+	}
+	header {
+    	height: 350px;
+	}
+	.img-responsive {
+    	max-width: 70% !important;
+	}
+	.page_title{
+		top: 10%;
+	}
+	.page_title h2 {
+		font-size: 32px;
+	}
+	.page_title h4{
+		font-size: 23px;
+		top: 50%;
+	}
+	.page_title h1{
+		font-size: 20px;
+		top: 60%;
+	}
+	.ref {
+    	display: none;
+	}
+	#cenovnik-fizicka h1{
+		font-size: 55px !important;
+	}
+	#cenovnik-pravna h1{
+		font-size: 55px !important;
+	}
+	.page_title h4{
+		margin-left: 0px; 
+	}
+	.page_title h1{
+		margin-left: 0px; 
+	}
+	.media img {
+    	width: 37px;
+	}
+	.about {
+    	padding-right: 0px;
+	}
+	.reference, .kontakt {
+    	padding: 30px;
+	}
+}
+@media (max-width: 480px){
+	.presite-full{
+		display: none;
+	}
+	.presite{
+		display: block;
+	}
+	.fizicka{
+    background-size: cover;
+    background-position: center 0;
+    max-width: 100%;
+	}
+	.pravna{
+	    background-size: cover;
+	    background-position: center 0;
+	    max-width: 100%;
+	}
+	.tel p a {
+    	text-decoration: none;
+    	color: #000;
+    	font-size: 45px;
+	}
+	.tel p {
+    	text-align: center;
+    	margin: 0;
+	}
+}	
+@media(max-width: 320px) {
+	.page_title{
+		left: 15%;
+	}
+	.page_title h2 {
+		font-size: 23px;
+	}
+	.page_title h4{
+		font-size: 20px;
+		top: 74%;
+	}
+	.page_title h1{
+		font-size: 23px;
+		top: 80%;
+		text-align: left;
+	}
+	.reference, .kontakt{
+		padding: 15px;
+	}
+	.logo {
+    text-align: center;
+	}
+	.reference tbody {
+    	font-size: 15px;
+	}
+	.reference h2{
+		padding: 32px;
+	}
+	.media img {
+    margin-right: 2px;
+	}
+	.prep {
+    	padding-left: 30px;
+	}
+	.reference h2{
+		margin: 0px;
+		padding-bottom: 10px;
+	}
+	.mapa iframe{
+		height: 350px;
+	}
+	tbody {
+    	font-size: 18px;
+	}
+	.subfooter p{
+		font-size: 13px;
+	}
+}
+@media (max-width: 290px){
+	.navbar-brand{
+		width: 220px;
+	}
+}
